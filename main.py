@@ -1,6 +1,9 @@
+def greet(name):
+    return f"Hello {name}, Docker is running!!"
+
 def main():
     name = input("what is your name? ")
-    print(f"Hello {name}, Docker is running!!")
+    print(greet(name))
 
 if __name__ == "__main__":
     main()
